@@ -14,7 +14,7 @@ export function Footer() {
 
   return (
     <footer className="border-t border-border">
-      <div className="mx-auto flex max-w-full justify-end py-4">
+      <div className="mx-auto flex max-w-full justify-center py-4">
         <div className="flex gap-3">
           {SOCIALS.map((social, index) => {
             const Icon = iconMap[social.platform.toLowerCase()];
